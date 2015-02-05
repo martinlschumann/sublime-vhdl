@@ -1,8 +1,8 @@
 <snippet>
   <tabTrigger>while</tabTrigger>
   <scope>source.vhdl</scope>
-  <content>${1:identifier} : while ${2:expression} loop
+  <content>while ${1:expression} loop
 	$0
-end loop ; -- ${1:identifier}</content>
+end loop;</content>
   <description>while</description>
 </snippet>

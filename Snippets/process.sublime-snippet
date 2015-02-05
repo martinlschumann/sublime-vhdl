@@ -1,9 +1,9 @@
 <snippet>
   <tabTrigger>pro</tabTrigger>
   <scope>source.vhdl</scope>
-  <content>${1:identifier} : process( ${2:sensitivity_list} )
+  <content>process(${1:sensitivity_list})
 begin
 	$0
-end process ; -- ${1:identifier}</content>
+end process;</content>
   <description>process</description>
 </snippet>
